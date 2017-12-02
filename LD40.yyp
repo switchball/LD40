@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "3824f632-8ee8-41b0-8dd8-f40750a2ae67",
+            "Value": {
+                "id": "fea31864-ab73-4ed0-99b0-62d69549f0f7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "timelines\/dongcidaci\/dongcidaci.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "3a2f16f9-6684-4e10-a0dd-6859c400b1a6",
             "Value": {
                 "id": "f4d10b8b-fedf-4519-8bcc-d8d0f63a0740",
@@ -283,6 +302,25 @@
                 ],
                 "resourcePath": "sprites\/spr_bug\/spr_bug.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "89f60ed0-1c15-4ec7-88bc-f301dd515c3c",
+            "Value": {
+                "id": "b232fdf0-805d-459e-93d2-83789092fa3a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/mathsc\/mathsc.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -553,7 +591,7 @@
         }
     ],
     "script_order": [
-        
+        "89f60ed0-1c15-4ec7-88bc-f301dd515c3c"
     ],
     "tutorial": ""
 }
