@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "226f499d-e65d-4a12-9c32-af5e9f9efc08",
+            "Value": {
+                "id": "1862aecb-c3af-43e7-ad63-fa4b14725089",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_laser\/obj_laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2dfc0022-82bd-4fc4-bdba-2b57837f0a94",
             "Value": {
                 "id": "eb3e4e7b-a033-46e4-9e80-65f31fc8dc73",
@@ -267,9 +286,9 @@
             }
         },
         {
-            "Key": "9a2b2629-6445-48f9-8258-1f4adab6c086",
+            "Key": "a168a1ae-359f-4985-986c-224c21e03936",
             "Value": {
-                "id": "107bf56b-efec-4a98-bffe-579e57e0537c",
+                "id": "f4ee2637-726a-4724-979c-ea50f749738d",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -281,7 +300,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_char\/obj_char.yy",
+                "resourcePath": "objects\/obj_laserspawnpoint\/obj_laserspawnpoint.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -381,25 +400,6 @@
             }
         },
         {
-            "Key": "c4c761d4-f8e0-481b-94a8-f25ce9df84b0",
-            "Value": {
-                "id": "2d700b7c-aebb-407b-9ccb-7fa03b3ada99",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_char_l\/obj_char_l.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fd515d74-bf13-4b4e-bac1-ce263dd2cf4e",
@@ -476,25 +476,6 @@
             }
         },
         {
-            "Key": "dbe726b9-e8dd-4479-9899-e8d1da2f3422",
-            "Value": {
-                "id": "8fc78abf-bedd-401f-a2e3-9496cde1baaa",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_char_d\/spr_char_d.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e3912f54-c076-401b-a2cd-0cda47929e48",
             "Value": {
                 "id": "e5447544-322c-48c6-9907-42c06d5f0cd2",
@@ -530,25 +511,6 @@
                 ],
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "ed4633d9-b963-4a92-a6ec-4b5ace7baeb7",
-            "Value": {
-                "id": "dcc7ffa7-5447-4fb7-bb40-be7718c60057",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_char_d\/obj_char_d.yy",
-                "resourceType": "GMObject"
             }
         },
         {

@@ -1,13 +1,13 @@
 {
-    "id": "ed4633d9-b963-4a92-a6ec-4b5ace7baeb7",
+    "id": "a168a1ae-359f-4985-986c-224c21e03936",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_char_d",
+    "name": "obj_laserspawnpoint",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "9a2b2629-6445-48f9-8258-1f4adab6c086",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "dbe726b9-e8dd-4479-9899-e8d1da2f3422",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
