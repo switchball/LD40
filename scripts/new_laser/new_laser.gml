@@ -1,7 +1,7 @@
-laser_type = argument0;
-xx = argument1;
-yy = argument2;
-base_dir = 180;
+var laser_type = argument0;
+var xx = argument1;
+var yy = argument2;
+var base_dir = 180;
 
 switch(laser_type) {
 	case "N":
@@ -30,6 +30,6 @@ switch(laser_type) {
 		return;
 }
 
-laser = instance_create_layer(xx,yy,"Instances",obj_laser);
+var laser = instance_create_layer(xx,yy,"LasersLayer",obj_laser);
 laser.direction = base_dir;
 laser.image_angle = base_dir;
