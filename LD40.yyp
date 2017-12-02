@@ -39,25 +39,6 @@
     },
     "resources": [
         {
-            "Key": "1113f1c7-f507-4e2c-ba07-f1ba4e6fb0a8",
-            "Value": {
-                "id": "0ccbb407-8dc7-42ac-978d-b0c1d8132e00",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "tilesets\/til_background\/til_background.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "16151606-7f16-48ee-b9ae-47b64c3d2b85",
             "Value": {
                 "id": "ce7d5458-0d72-4d4c-af3e-2b42841cab37",
@@ -226,25 +207,6 @@
                 ],
                 "resourcePath": "views\/5328a6b4-11fc-4289-9469-48acc03eda17.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5ee72f2c-0138-47bd-b47b-ff9f1284c800",
-            "Value": {
-                "id": "02d9f0bb-5ea7-44b2-be0a-1bb86b0f74f4",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_background\/spr_background.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
