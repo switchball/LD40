@@ -32,11 +32,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 2,
+                "enumb": 60,
                 "eventtype": 0,
                 "m_owner": "3824f632-8ee8-41b0-8dd8-f40750a2ae67"
             },
-            "moment": 2
+            "moment": 60
         },
         {
             "id": "acf4c15c-074b-4b60-b0fe-65c4142f132f",
@@ -49,11 +49,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 4,
+                "enumb": 120,
                 "eventtype": 0,
                 "m_owner": "3824f632-8ee8-41b0-8dd8-f40750a2ae67"
             },
-            "moment": 4
+            "moment": 120
         },
         {
             "id": "9c1c8b4a-0c18-4277-81de-50a04d265332",
@@ -66,11 +66,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 5,
+                "enumb": 180,
                 "eventtype": 0,
                 "m_owner": "3824f632-8ee8-41b0-8dd8-f40750a2ae67"
             },
-            "moment": 5
+            "moment": 180
         },
         {
             "id": "e9abdb36-7a4f-4466-9718-4190999852a7",
@@ -83,11 +83,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 6,
+                "enumb": 240,
                 "eventtype": 0,
                 "m_owner": "3824f632-8ee8-41b0-8dd8-f40750a2ae67"
             },
-            "moment": 6
+            "moment": 240
         },
         {
             "id": "34c47170-da3c-4e57-8fea-40b164078128",
