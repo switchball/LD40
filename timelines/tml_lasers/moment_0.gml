@@ -1,2 +1,2 @@
-new_button("L",220,160);
-new_button("D",540,256);
+new_button("L",1,1,3);
+new_button("D",3,3,3);

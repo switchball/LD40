@@ -1,6 +1,9 @@
 var button_char = argument0;
 var xx = argument1;
 var yy = argument2;
+var ss = argument3; // occupation size
+xx = ss * 32 * (xx+0.5);
+yy = ss * 32 * (yy+0.5);
 //get the id of this new button which is created in the certain position.
 var inst_char_id = instance_create_layer(xx,yy,"Instances",obj_chars);
 
@@ -8,6 +11,8 @@ var inst_char_id = instance_create_layer(xx,yy,"Instances",obj_chars);
 with (inst_char_id) {
 	image_speed=0;
 	image_index=ord(button_char) - ord("A"); // A -> 0, B -> 1, ..., Z -> 25
+	image_xscale = ss;
+	image_yscale = ss;
 }
 
 
