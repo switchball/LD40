@@ -2,7 +2,8 @@ var laser_type = argument0;
 var xx = argument1;
 var yy = argument2;
 var base_dir = 180;
-
+//use the switch grammer to set up 4 directions of laser and create instance in the layer
+//use var laser to store the id of the instance which direction can be changed.
 switch(laser_type) {
 	case "N":
 		base_dir += 90;
