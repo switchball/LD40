@@ -3,8 +3,8 @@
 if (!move_enabled)
 	return;
 //**** to iterate over the global_allkeys array to get the button-char-id
-for(var i = 0; i < array_length_1d(global.global_allkeys); i++) {
-	var button_char = global.global_allkeys[i];
+for(var i = 0; i < ds_list_size(global.global_allkeys); i++) {
+	var button_char = ds_list_find_value(global.global_allkeys, i);
 	//move the player to the position which is defined of ASCII code.
 	if(keyboard_check_pressed(ord(button_char))) {
 		with(global.global_allkey_instances[ord(button_char)]) {
@@ -22,6 +22,13 @@ for(var i = 0; i < array_length_1d(global.global_allkeys); i++) {
 				other.speed = dis / other.move_frames;
 			
 				other.move_enabled = false;
+				
+				// reset previous scale
+				with(other.target_inst) {
+					image_xscale = originscale;
+					image_yscale = originscale;
+				}
+				
 				other.target_inst = self;
 			}
 		}

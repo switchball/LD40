@@ -18,7 +18,8 @@ with (inst_char_id) {
 
 if (ord(button_char) < 128) {
 	//to add this char in the globalallkey array
-	global.global_allkeys[array_length_1d(global.global_allkeys)] = button_char;
+	ds_list_add(global.global_allkeys, button_char);
+	/// global.global_allkeys[array_length_1d(global.global_allkeys)] = button_char;
 	//to add the char's instance to the instanceID array which can be use to access by bug.
 	//$$$ use the ord() ASCII way to store the key instance in favor of search
 	global.global_allkey_instances[ord(button_char)] = inst_char_id;
