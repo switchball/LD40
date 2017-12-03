@@ -3,3 +3,5 @@
 
 direction=image_angle;
 speed=-5;
+
+label = "*";

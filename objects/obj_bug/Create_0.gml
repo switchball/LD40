@@ -11,3 +11,6 @@ move_frames = 20;
 
 hp = 1;
 thescore = 0;
+
+target_inst = noone; // target platform it belongs to
+// specific

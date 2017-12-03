@@ -22,6 +22,7 @@ for(var i = 0; i < array_length_1d(global.global_allkeys); i++) {
 				other.speed = dis / other.move_frames;
 			
 				other.move_enabled = false;
+				other.target_inst = self;
 			}
 		}
 	}

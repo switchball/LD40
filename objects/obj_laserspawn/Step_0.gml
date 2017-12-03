@@ -18,7 +18,8 @@ if (frame > global.global_moment_rate) {
 		var colm = global.beats[beats_index, 2];
 		var size = global.beats[beats_index, 3];
 		var spdf = global.beats[beats_index, 4];
-		new_laser(type, colm, size, spdf);
+		var laser = new_laser(type, colm, size, spdf);
+		laser.label = string(music_frame);
 		draw_command = type + "," + string(colm) + "," + string(size) + "," + string(spdf);
 		beats_index ++;
 	} else {

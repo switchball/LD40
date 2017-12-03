@@ -1,2 +1,2 @@
-new_button("U",1,3,3);
-new_button("M",3,1,3);
+move_button("L",1,1,3, 60);
+// 40 move_button("D",3,3,3, 60);

@@ -27,6 +27,46 @@ switch(laser_type) {
 		xx = 0;
 		yy = ss * 32 * (argument1+0.5);
 		break;
+	case "NE": // argument can be negative: |__
+		base_dir += 45;
+		if (argument1 >= 0) {
+			xx = ss * 32 * argument1;
+			yy = room_height;
+		} else {
+			xx = 0;
+			yy = room_height + ss * 32 * argument1;
+		}
+		break;
+	case "SW":
+		base_dir += 225;
+		if (argument1 >= 0) {
+			xx = room_width - ss * 32 * argument1;
+			yy = 0;
+		} else {
+			xx = room_width;
+			yy = -ss * 32 * argument1;
+		}
+		break;
+	case "NW":
+		base_dir += 135;
+		if (argument1 >= 0) {
+			xx = room_width;
+			yy = room_height - ss * 32 * argument1;
+		} else {
+			xx = room_width + ss * 32 * argument1;
+			yy = room_height;
+		}
+		break;
+	case "SE":
+		base_dir += 315;
+		if (argument1 >= 0) {
+			xx = 0;
+			yy = ss * 32 * argument1;
+		} else {
+			xx = - ss * 32 * argument1;
+			yy = 0;
+		}
+		break;
 	case "*":
 		xx = room_width / 2;
 		yy = room_height / 2;
@@ -41,3 +81,4 @@ var laser = instance_create_layer(xx,yy,"LasersLayer",obj_laser);
 laser.direction = base_dir;
 laser.image_angle = base_dir;
 laser.speed = ss * spd_fix * 32 / global.global_moment_rate;
+return laser;

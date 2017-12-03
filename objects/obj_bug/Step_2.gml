@@ -5,6 +5,6 @@
 
 var array_scaleratio=array(1.5,1.5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1);
 
-image_xscale=originalscalex*array_scaleratio[frame];
-image_yscale=originalscaley*array_scaleratio[frame];
-frame=(frame+1)%28;
+image_xscale=originalscalex*array_scaleratio[frame%28];
+image_yscale=originalscaley*array_scaleratio[frame%28];
+frame += 1;
