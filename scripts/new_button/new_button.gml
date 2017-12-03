@@ -22,7 +22,8 @@ if (ord(button_char) < 128) {
 	//to add the char's instance to the instanceID array which can be use to access by bug.
 	//$$$ use the ord() ASCII way to store the key instance in favor of search
 	global.global_allkey_instances[ord(button_char)] = inst_char_id;
-	show_message("[new button created] " + string(inst_char_id));
+	if (global.global_debug)
+		show_message("[new button created] " + string(inst_char_id));
 	
 } else 
 	show_message("[new button] invalid button char!");
