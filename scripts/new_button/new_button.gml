@@ -12,7 +12,7 @@ with (inst_char_id) {
 if (ord(button_char) < 128) {
 	global.global_allkeys[array_length_1d(global.global_allkeys)] = button_char;
 	global.global_allkey_instances[ord(button_char)] = inst_char_id;
-	//show_message("[new button created] " + string(inst_char_id));
+	show_message("[new button created] " + string(inst_char_id));
 	
 } else 
 	show_message("[new button] invalid button char!");
