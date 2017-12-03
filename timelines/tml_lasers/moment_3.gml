@@ -1,1 +1,1 @@
-new_laser("W",1,3);
+//new_laser("W",1,3);

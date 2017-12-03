@@ -4,3 +4,5 @@ global.global_allkey_instances = array_create(128, noone);
 
 global.global_moment_rate = 28.125;
 global.global_debug = false;
+
+global.beats = noone;
