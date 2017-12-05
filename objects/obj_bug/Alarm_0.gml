@@ -4,6 +4,7 @@
 move_enabled = true;
 direction = 0;
 image_angle = 0;
+image_alpha = 1;
 speed = 0;
 
 hp += 0.25;

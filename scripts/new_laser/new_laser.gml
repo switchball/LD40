@@ -3,6 +3,7 @@ var xx = 0;
 var yy = 0;
 var ss = argument2;
 var spd_fix = argument3; // not used 
+var des = argument4;
 var base_dir = 0;
 //use the switch grammer to set up 4 directions of laser and create instance in the layer
 //use var laser to store the id of the instance which direction can be changed.
@@ -11,21 +12,29 @@ switch(laser_type) {
 		base_dir += 90;
 		xx = ss * 32 * (argument1+0.5);
 		yy = room_height;
+		var splash = instance_create_layer(xx, yy, "FXLayer", obj_splash);
+		splash.image_angle = base_dir;
 		break;
 	case "S":
 		base_dir += 270;
 		xx = ss * 32 * (argument1+0.5);
 		yy = 0;
+		var splash = instance_create_layer(xx, yy, "FXLayer", obj_splash);
+		splash.image_angle = base_dir;
 		break;
 	case "W":
 		base_dir += 180;
 		xx = room_width;
 		yy = ss * 32 * (argument1+0.5);
+		var splash = instance_create_layer(xx, yy, "FXLayer", obj_splash);
+		splash.image_angle = base_dir;
 		break;
 	case "E":
 		//base_dir += 0;
 		xx = 0;
 		yy = ss * 32 * (argument1+0.5);
+		var splash = instance_create_layer(xx, yy, "FXLayer", obj_splash);
+		splash.image_angle = base_dir;
 		break;
 	case "NE": // argument can be negative: |__
 		base_dir += 45;
@@ -79,6 +88,7 @@ switch(laser_type) {
 
 var laser = instance_create_layer(xx,yy,"LasersLayer",obj_laser);
 laser.direction = base_dir;
-laser.image_angle = base_dir;
+//laser.image_angle = base_dir;
 laser.speed = ss * spd_fix * 32 / global.global_moment_rate;
+laser.can_destory = des;
 return laser;

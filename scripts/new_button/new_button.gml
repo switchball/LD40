@@ -13,6 +13,7 @@ with (inst_char_id) {
 	image_index=ord(button_char) - ord("A"); // A -> 0, B -> 1, ..., Z -> 25
 	image_xscale = ss;
 	image_yscale = ss;
+	originscale = ss;
 }
 
 

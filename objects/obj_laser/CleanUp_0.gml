@@ -5,3 +5,6 @@ if (can_destory) {
 	if (pos >= 0)
 		ds_list_delete(global.global_allkeys, pos);
 }
+if inst_char != noone {
+	instance_destroy(inst_char);
+}

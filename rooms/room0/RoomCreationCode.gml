@@ -8,3 +8,5 @@ global.global_moment_rate = 28.125;
 global.global_debug = false;
 
 global.beats = noone;
+
+global.global_hp = 10;
